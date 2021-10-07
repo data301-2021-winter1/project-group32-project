@@ -30,6 +30,6 @@ Our dataset contains courtfilings for reporting years ending in 2019 providing a
 ## References
 
 https://www.buzzfeednews.com/article/heidiblake/conservatorship-investigation-free-britney-spears
-
+https://github.com/BuzzFeedNews/2021-09-guardianship-filings
 
 
