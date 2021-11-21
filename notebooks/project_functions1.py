@@ -1,5 +1,4 @@
 import pandas as pd
-df = pd.read_csv('filing_counts.csv')
 def load_and_process(filing_counts):
     df = (
     pd.read_csv('filing_counts.csv')   
@@ -9,4 +8,3 @@ def load_and_process(filing_counts):
 )
 
     return df
-df.head(10)
