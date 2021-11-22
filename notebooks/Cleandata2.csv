@@ -1,0 +1,374 @@
+state,year,case_type,count
+Alaska,2020,G+C+Joint,1171
+Alaska,2019,G+C+Joint,1084
+Alaska,2018,G+C+Joint,1227
+Alaska,2017,G+C+Joint,1090
+Arizona,2020,Guardianship ONLY,2520
+Arizona,2020,Guardianship ONLY,2871
+Arizona,2020,Conservatorship ONLY,3485
+Arizona,2020,Conservatorship ONLY,1365
+Arizona,2019,Guardianship ONLY,2383
+Arizona,2019,Guardianship ONLY,3608
+Arizona,2019,Conservatorship ONLY,4003
+Arizona,2019,Conservatorship ONLY,1334
+Arizona,2018,Guardianship ONLY,2800
+Arizona,2018,Guardianship ONLY,3785
+Arizona,2018,Conservatorship ONLY,4554
+Arizona,2018,Conservatorship ONLY,1361
+Arkansas,2020,G+C+Joint,1110
+Arkansas,2020,G+C+Joint,2439
+Arkansas,2020,G+C+Joint,133
+Arkansas,2019,G+C+Joint,1164
+Arkansas,2019,G+C+Joint,2692
+Arkansas,2019,G+C+Joint,141
+Arkansas,2018,G+C+Joint,1153
+Arkansas,2018,G+C+Joint,2617
+Arkansas,2018,G+C+Joint,146
+Arkansas,2017,G+C+Joint,1168
+Arkansas,2017,G+C+Joint,2789
+Arkansas,2017,G+C+Joint,160
+California,2020,G+C+Joint,15001
+California,2019,G+C+Joint,16634
+California,2018,G+C+Joint,16821
+California,2017,G+C+Joint,15923
+California,2016,G+C+Joint,15529
+Colorado,2020,Guardianship ONLY,826
+Colorado,2020,Conservatorship ONLY,199
+Colorado,2020,Joint G/C ONLY,468
+Colorado,2020,Guardianship ONLY,869
+Colorado,2020,Conservatorship ONLY,327
+Colorado,2020,Joint G/C ONLY,51
+Colorado,2019,Guardianship ONLY,934
+Colorado,2019,Conservatorship ONLY,235
+Colorado,2019,Joint G/C ONLY,483
+Colorado,2019,Guardianship ONLY,950
+Colorado,2019,Conservatorship ONLY,318
+Colorado,2019,Joint G/C ONLY,35
+Colorado,2018,Guardianship ONLY,910
+Colorado,2018,Conservatorship ONLY,243
+Colorado,2018,Joint G/C ONLY,492
+Colorado,2018,Guardianship ONLY,931
+Colorado,2018,Conservatorship ONLY,340
+Colorado,2018,Joint G/C ONLY,27
+Colorado,2017,Guardianship ONLY,823
+Colorado,2017,Conservatorship ONLY,213
+Colorado,2017,Joint G/C ONLY,506
+Colorado,2017,Guardianship ONLY,1068
+Colorado,2017,Conservatorship ONLY,403
+Colorado,2017,Joint G/C ONLY,42
+Colorado,2016,Guardianship ONLY,838
+Colorado,2016,Conservatorship ONLY,210
+Colorado,2016,Joint G/C ONLY,531
+Colorado,2016,Guardianship ONLY,897
+Colorado,2016,Conservatorship ONLY,435
+Colorado,2016,Joint G/C ONLY,39
+Connecticut,2019,G+C+Joint,4700
+Delaware,2020,G+C+Joint,1574
+Delaware,2019,G+C+Joint,1744
+Delaware,2018,G+C+Joint,2018
+Delaware,2017,G+C+Joint,1917
+District of Columbia,2020,G+C+Joint,361
+District of Columbia,2020,G+C+Joint,34
+District of Columbia,2020,Conservatorship ONLY,25
+District of Columbia,2020,Conservatorship ONLY,1
+District of Columbia,2019,G+C+Joint,544
+District of Columbia,2019,G+C+Joint,31
+District of Columbia,2019,Conservatorship ONLY,33
+District of Columbia,2019,Conservatorship ONLY,0
+District of Columbia,2018,G+C+Joint,527
+District of Columbia,2018,G+C+Joint,44
+District of Columbia,2018,Conservatorship ONLY,19
+District of Columbia,2018,Conservatorship ONLY,1
+Florida,2020,G+C+Joint,7876
+Florida,2019,G+C+Joint,7906
+Florida,2018,G+C+Joint,7317
+Hawaii,2020,Guardianship ONLY,544
+Hawaii,2020,Conservatorship ONLY,130
+Hawaii,2020,Joint G/C ONLY,73
+Hawaii,2019,Guardianship ONLY,539
+Hawaii,2019,Conservatorship ONLY,156
+Hawaii,2019,Joint G/C ONLY,74
+Hawaii,2018,Guardianship ONLY,507
+Hawaii,2018,Conservatorship ONLY,163
+Hawaii,2018,Joint G/C ONLY,79
+Hawaii,2017,Guardianship ONLY,531
+Hawaii,2017,Conservatorship ONLY,181
+Hawaii,2017,Joint G/C ONLY,58
+Idaho,2020,Guardianship ONLY,568
+Idaho,2020,Guardianship ONLY,168
+Idaho,2020,Conservatorship ONLY,42
+Idaho,2020,Conservatorship ONLY,26
+Idaho,2020,Joint G/C ONLY,61
+Idaho,2020,Joint G/C ONLY,400
+Idaho,2019,Guardianship ONLY,621
+Idaho,2019,Guardianship ONLY,170
+Idaho,2019,Conservatorship ONLY,42
+Idaho,2019,Conservatorship ONLY,27
+Idaho,2019,Joint G/C ONLY,49
+Idaho,2019,Joint G/C ONLY,424
+Idaho,2018,Guardianship ONLY,620
+Idaho,2018,Guardianship ONLY,174
+Idaho,2018,Conservatorship ONLY,68
+Idaho,2018,Conservatorship ONLY,30
+Idaho,2018,Joint G/C ONLY,61
+Idaho,2018,Joint G/C ONLY,408
+Indiana,2020,G+C+Joint,8061
+Indiana,2019,G+C+Joint,8301
+Indiana,2018,G+C+Joint,8637
+Indiana,2017,G+C+Joint,8108
+Kansas,2019,Guardianship ONLY,472
+Kansas,2019,Joint G/C ONLY,670
+Kansas,2019,Guardianship ONLY,488
+Kansas,2019,Joint G/C ONLY,316
+Kansas,2019,Conservatorship ONLY,120
+Kansas,2018,Guardianship ONLY,438
+Kansas,2018,Joint G/C ONLY,648
+Kansas,2018,Guardianship ONLY,519
+Kansas,2018,Joint G/C ONLY,292
+Kansas,2018,Conservatorship ONLY,101
+Kansas,2017,Guardianship ONLY,420
+Kansas,2017,Joint G/C ONLY,546
+Kansas,2017,Guardianship ONLY,541
+Kansas,2017,Joint G/C ONLY,274
+Kansas,2017,Conservatorship ONLY,186
+Kentucky,2020,G+C+Joint,1432
+Kentucky,2019,G+C+Joint,1493
+Kentucky,2018,G+C+Joint,1234
+Massachusetts,2020,Guardianship ONLY,3115
+Massachusetts,2020,Guardianship ONLY,2637
+Massachusetts,2019,Guardianship ONLY,4059
+Massachusetts,2019,Guardianship ONLY,4586
+Massachusetts,2018,Guardianship ONLY,4028
+Massachusetts,2018,Guardianship ONLY,4978
+Michigan,2020,Guardianship ONLY,9599
+Michigan,2020,Guardianship ONLY,0
+Michigan,2020,Conservatorship ONLY,3252
+Michigan,2020,Conservatorship ONLY,0
+Michigan,2020,Guardianship ONLY,2656
+Michigan,2020,Conservatorship ONLY,712
+Michigan,2019,Guardianship ONLY,12655
+Michigan,2019,Guardianship ONLY,0
+Michigan,2019,Conservatorship ONLY,3401
+Michigan,2019,Conservatorship ONLY,0
+Michigan,2019,Guardianship ONLY,5145
+Michigan,2019,Conservatorship ONLY,896
+Michigan,2018,Guardianship ONLY,12531
+Michigan,2018,Guardianship ONLY,0
+Michigan,2018,Conservatorship ONLY,3451
+Michigan,2018,Conservatorship ONLY,0
+Michigan,2018,Guardianship ONLY,3451
+Michigan,2018,Conservatorship ONLY,902
+Minnesota,2020,G+C+Joint,2562
+Minnesota,2020,G+C+Joint,191
+Minnesota,2019,G+C+Joint,2658
+Minnesota,2019,G+C+Joint,236
+Minnesota,2018,G+C+Joint,2629
+Minnesota,2018,G+C+Joint,246
+Mississippi,2020,Guardianship ONLY,48
+Mississippi,2020,Joint G/C ONLY,99
+Mississippi,2020,Guardianship ONLY,583
+Mississippi,2020,Joint G/C ONLY,59
+Mississippi,2020,Joint G/C ONLY,72
+Mississippi,2020,Guardianship ONLY,626
+Missouri,2020,G+C+Joint,2901
+Missouri,2020,G+C+Joint,3992
+Missouri,2019,G+C+Joint,2922
+Missouri,2019,G+C+Joint,4200
+Missouri,2018,G+C+Joint,3077
+Missouri,2018,G+C+Joint,4439
+Missouri,2017,G+C+Joint,3183
+Missouri,2016,G+C+Joint,3062
+Missouri,2016,G+C+Joint,4499
+Montana,2019,G+C+Joint,1129
+Montana,2018,G+C+Joint,1160
+Montana,2017,G+C+Joint,1104
+Montana,2016,G+C+Joint,1105
+Nebraska,2020,G+C+Joint,2149
+Nebraska,2019,G+C+Joint,2109
+Nebraska,2018,G+C+Joint,2017
+Nebraska,2017,G+C+Joint,2002
+Nebraska,2016,G+C+Joint,1911
+Nevada,2020,G+C+Joint,2303
+Nevada,2020,G+C+Joint,1995
+Nevada,2019,G+C+Joint,2513
+Nevada,2019,G+C+Joint,2898
+Nevada,2018,G+C+Joint,2527
+Nevada,2018,G+C+Joint,1785
+Nevada,2017,G+C+Joint,2452
+Nevada,2017,G+C+Joint,2093
+Nevada,2016,G+C+Joint,2494
+Nevada,2016,G+C+Joint,1590
+New Hampshire,2020,G+C+Joint,957
+New Hampshire,2020,G+C+Joint,131
+New Hampshire,2019,G+C+Joint,945
+New Hampshire,2019,G+C+Joint,90
+New Hampshire,2018,G+C+Joint,959
+New Hampshire,2018,G+C+Joint,110
+New Hampshire,2017,G+C+Joint,951
+New Hampshire,2017,G+C+Joint,129
+New Mexico,2019,Guardianship ONLY,240
+New Mexico,2019,Guardianship ONLY,42
+New Mexico,2019,Conservatorship ONLY,18
+New Mexico,2019,Conservatorship ONLY,6
+New Mexico,2019,Joint G/C ONLY,327
+New Mexico,2019,Joint G/C ONLY,87
+New Mexico,2019,Guardianship ONLY,65
+New Mexico,2019,Guardianship ONLY,28
+New Mexico,2019,Conservatorship ONLY,30
+New Mexico,2019,Conservatorship ONLY,10
+New Mexico,2019,Joint G/C ONLY,25
+New Mexico,2019,Joint G/C ONLY,6
+New Mexico,2018,Guardianship ONLY,220
+New Mexico,2018,Guardianship ONLY,41
+New Mexico,2018,Conservatorship ONLY,16
+New Mexico,2018,Conservatorship ONLY,3
+New Mexico,2018,Joint G/C ONLY,315
+New Mexico,2018,Joint G/C ONLY,88
+New Mexico,2018,Guardianship ONLY,78
+New Mexico,2018,Guardianship ONLY,30
+New Mexico,2018,Conservatorship ONLY,15
+New Mexico,2018,Conservatorship ONLY,4
+New Mexico,2018,Joint G/C ONLY,41
+New Mexico,2018,Joint G/C ONLY,2
+New Mexico,2017,Guardianship ONLY,128
+New Mexico,2017,Guardianship ONLY,31
+New Mexico,2017,Conservatorship ONLY,21
+New Mexico,2017,Conservatorship ONLY,6
+New Mexico,2017,Joint G/C ONLY,285
+New Mexico,2017,Joint G/C ONLY,50
+New Mexico,2017,Guardianship ONLY,119
+New Mexico,2017,Guardianship ONLY,32
+New Mexico,2017,Conservatorship ONLY,17
+New Mexico,2017,Conservatorship ONLY,2
+New Mexico,2017,Joint G/C ONLY,25
+New Mexico,2017,Joint G/C ONLY,3
+New York,2020,G+C+Joint,18226
+New York,2019,G+C+Joint,26763
+New York,2018,G+C+Joint,26893
+New York,2017,G+C+Joint,28004
+North Carolina,2021,Guardianship ONLY,3152
+North Carolina,2021,Guardianship ONLY,452
+North Carolina,2021,Conservatorship ONLY,460
+North Carolina,2021,Conservatorship ONLY,632
+North Carolina,2021,Joint G/C ONLY,778
+North Carolina,2021,Joint G/C ONLY,251
+North Carolina,2020,Guardianship ONLY,2908
+North Carolina,2020,Guardianship ONLY,360
+North Carolina,2020,Conservatorship ONLY,377
+North Carolina,2020,Conservatorship ONLY,554
+North Carolina,2020,Joint G/C ONLY,690
+North Carolina,2020,Joint G/C ONLY,220
+North Carolina,2019,Guardianship ONLY,3327
+North Carolina,2019,Guardianship ONLY,397
+North Carolina,2019,Conservatorship ONLY,442
+North Carolina,2019,Conservatorship ONLY,602
+North Carolina,2019,Joint G/C ONLY,699
+North Carolina,2019,Joint G/C ONLY,226
+North Carolina,2018,Guardianship ONLY,3195
+North Carolina,2018,Guardianship ONLY,346
+North Carolina,2018,Conservatorship ONLY,470
+North Carolina,2018,Conservatorship ONLY,582
+North Carolina,2018,Joint G/C ONLY,675
+North Carolina,2018,Joint G/C ONLY,218
+North Carolina,2017,Guardianship ONLY,3108
+North Carolina,2017,Guardianship ONLY,320
+North Carolina,2017,Conservatorship ONLY,460
+North Carolina,2017,Conservatorship ONLY,510
+North Carolina,2017,Joint G/C ONLY,712
+North Carolina,2017,Joint G/C ONLY,161
+North Dakota,2020,Conservatorship ONLY,11
+North Dakota,2020,Conservatorship ONLY,20
+North Dakota,2020,Guardianship ONLY,317
+North Dakota,2020,Guardianship ONLY,280
+North Dakota,2019,Conservatorship ONLY,9
+North Dakota,2019,Conservatorship ONLY,30
+North Dakota,2019,Guardianship ONLY,314
+North Dakota,2019,Guardianship ONLY,267
+North Dakota,2018,Conservatorship ONLY,14
+North Dakota,2018,Conservatorship ONLY,24
+North Dakota,2018,Guardianship ONLY,344
+North Dakota,2018,Guardianship ONLY,324
+Ohio,2020,Guardianship ONLY,5837
+Ohio,2020,Guardianship ONLY,1396
+Ohio,2019,Guardianship ONLY,6991
+Ohio,2019,Guardianship ONLY,1801
+Ohio,2018,Guardianship ONLY,6762
+Ohio,2018,Guardianship ONLY,1869
+Ohio,2017,Guardianship ONLY,6864
+Ohio,2017,Guardianship ONLY,2159
+Ohio,2016,Guardianship ONLY,6911
+Ohio,2016,Guardianship ONLY,2262
+Oregon,2020,G+C+Joint,1355
+Oregon,2020,G+C+Joint,701
+Oregon,2019,G+C+Joint,1355
+Oregon,2019,G+C+Joint,785
+Oregon,2018,G+C+Joint,1338
+Oregon,2018,G+C+Joint,875
+Oregon,2017,G+C+Joint,1426
+Oregon,2017,G+C+Joint,854
+Oregon,2016,G+C+Joint,1441
+Oregon,2016,G+C+Joint,804
+Oregon,2016,Guardianship ONLY,12
+Oregon,2016,Conservatorship ONLY,7
+Oregon,2016,G+C+Joint,5
+Pennsylvania,2019,G+C+Joint,3304
+Pennsylvania,2018,G+C+Joint,3415
+Pennsylvania,2017,G+C+Joint,3247
+Tennessee,2020,G+C+Joint,3274
+Tennessee,2019,G+C+Joint,3754
+Tennessee,2018,G+C+Joint,3564
+Tennessee,2017,G+C+Joint,3580
+Tennessee,2016,G+C+Joint,3259
+Utah,2020,Conservatorship ONLY,103
+Utah,2020,Guardianship ONLY,860
+Utah,2020,Guardianship ONLY,886
+Utah,2019,Conservatorship ONLY,170
+Utah,2019,Guardianship ONLY,823
+Utah,2019,Guardianship ONLY,1002
+Utah,2018,Conservatorship ONLY,160
+Utah,2018,Guardianship ONLY,739
+Utah,2018,Guardianship ONLY,1020
+Utah,2017,Conservatorship ONLY,130
+Utah,2017,Guardianship ONLY,732
+Utah,2017,Guardianship ONLY,1038
+Utah,2016,Conservatorship ONLY,161
+Utah,2016,Guardianship ONLY,1743
+Vermont,2020,G+C+Joint,439
+Vermont,2020,G+C+Joint,305
+Vermont,2019,G+C+Joint,512
+Vermont,2019,G+C+Joint,440
+Vermont,2018,G+C+Joint,493
+Vermont,2018,G+C+Joint,457
+Vermont,2017,G+C+Joint,505
+Vermont,2017,G+C+Joint,440
+Vermont,2016,G+C+Joint,41
+Vermont,2016,G+C+Joint,430
+Virginia,2020,Guardianship ONLY,610
+Virginia,2020,Conservatorship ONLY,275
+Virginia,2020,Joint G/C ONLY,1803
+Virginia,2019,Guardianship ONLY,789
+Virginia,2019,Conservatorship ONLY,277
+Virginia,2019,Joint G/C ONLY,1729
+Virginia,2018,Guardianship ONLY,759
+Virginia,2018,Conservatorship ONLY,285
+Virginia,2018,Joint G/C ONLY,1719
+Virginia,2017,Guardianship ONLY,683
+Virginia,2017,Conservatorship ONLY,263
+Virginia,2017,Joint G/C ONLY,1686
+Virginia,2016,Guardianship ONLY,631
+Virginia,2016,Conservatorship ONLY,236
+Virginia,2016,Joint G/C ONLY,1644
+Washington,2020,G+C+Joint,2824
+Washington,2019,G+C+Joint,2987
+Washington,2018,G+C+Joint,2801
+Washington,2017,G+C+Joint,3005
+West Virginia,2020,G+C+Joint,718
+West Virginia,2019,G+C+Joint,894
+West Virginia,2018,G+C+Joint,826
+West Virginia,2017,G+C+Joint,828
+West Virginia,2016,G+C+Joint,752
+Wisconsin,2020,G+C+Joint,5624
+Wisconsin,2019,G+C+Joint,6051
+Wisconsin,2018,G+C+Joint,6180
+Wisconsin,2017,G+C+Joint,6196
+Wisconsin,2016,G+C+Joint,6030
