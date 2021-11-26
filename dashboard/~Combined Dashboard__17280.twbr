@@ -1,0 +1,1652 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <CollapsiblePane />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+    <ZoneVisibilityControl />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='AnalysisQuestion1' inline='true' name='federated.1rnq59i0ni5z4n1de59fn0sq5oxg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CleanData1' name='textscan.07s6hfy0aikfh411i8n8i1bpu7ol'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/hanna/school/year3/project-group32-project/data/processed/CleanData1.csv' dataRefreshTime='' directory='C:/Users/hanna/school/year3/project-group32-project/data/processed' filename='C:/Users/hanna/AppData/Local/Temp/TableauTemp/1u53r900p08t611gkgqjk14f1s3h/CleanData1.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.07s6hfy0aikfh411i8n8i1bpu7ol' name='CleanData1.csv' table='[CleanData1#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:F382:no:A1:F382:2' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='state state' ordinal='1' />
+            <column datatype='string' name='case_type case_type' ordinal='2' />
+            <column datatype='string' name='age_group age_group' ordinal='3' />
+            <column datatype='integer' name='count count' ordinal='4' />
+            <column datatype='string' name='state_agegroup state_agegroup' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.07s6hfy0aikfh411i8n8i1bpu7ol' name='CleanData1.csv' table='[CleanData1#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:F382:no:A1:F382:2' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='state state' ordinal='1' />
+            <column datatype='string' name='case_type case_type' ordinal='2' />
+            <column datatype='string' name='age_group age_group' ordinal='3' />
+            <column datatype='integer' name='count count' ordinal='4' />
+            <column datatype='string' name='state_agegroup state_agegroup' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CleanData1.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F382:no:A1:F382:2&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>760</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[CleanData1.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state state]</local-name>
+            <parent-name>[CleanData1.csv]</parent-name>
+            <remote-alias>state state</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>case_type case_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[case_type case_type]</local-name>
+            <parent-name>[CleanData1.csv]</parent-name>
+            <remote-alias>case_type case_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_group age_group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[age_group age_group]</local-name>
+            <parent-name>[CleanData1.csv]</parent-name>
+            <remote-alias>age_group age_group</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count count]</local-name>
+            <parent-name>[CleanData1.csv]</parent-name>
+            <remote-alias>count count</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_agegroup state_agegroup</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state_agegroup state_agegroup]</local-name>
+            <parent-name>[CleanData1.csv]</parent-name>
+            <remote-alias>state_agegroup state_agegroup</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[State (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='categorical-bin' column='[state state]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;New York&quot;'>
+            <value>&quot;New York&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='AnalysisQuestion1.csv' datatype='table' name='[__tableau_internal_object_id__].[CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Age Group' datatype='string' default-role='measure' default-type='quantitative' name='[age_group age_group]' role='dimension' type='nominal' />
+      <column caption='Case Type' datatype='string' name='[case_type case_type]' role='dimension' type='nominal' />
+      <column caption='Count' datatype='integer' name='[count count]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State_AgeGroup' datatype='string' name='[state_agegroup state_agegroup]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column-instance column='[age_group age_group]' derivation='None' name='[none:age_group age_group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[case_type case_type]' derivation='None' name='[none:case_type case_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[state state]' derivation='None' name='[none:state state:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Age Group)' hidden='true' name='[Action (Age Group)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[age_group age_group]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Age Group,State)' hidden='true' name='[Action (Age Group,State)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[age_group age_group]' />
+          <groupfilter function='level-members' level='[state state]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Case Type)' hidden='true' name='[Action (Case Type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[case_type case_type]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Inclusions (Age Group,State)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:age_group:nk]' />
+          <groupfilter function='level-members' level='[none:state:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:state state:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Florida&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Oregon&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Alaska&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nebraska&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Colorado&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kansas&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Vermont&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Hawaii&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pennsylvania&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Connecticut&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;North Carolina&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Missouri&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Arizona&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nevada&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Minnesota&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Wisconsin&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Delaware&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;North Dakota&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Kentucky&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Massachusetts&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mississippi&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Montana&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Idaho&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tennessee&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ohio&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Arkansas&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;New Hampshire&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Michigan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;West Virginia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Indiana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Utah&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;California&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;New Mexico&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:case_type case_type:nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#8074a8'>
+              <bucket>&quot;Conservatorship ONLY&quot;</bucket>
+            </map>
+            <map to='#c46487'>
+              <bucket>&quot;Guardianship ONLY&quot;</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;G+C+Joint&quot;</bucket>
+            </map>
+            <map to='#ffbed1'>
+              <bucket>&quot;Joint G/C ONLY&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:age_group age_group:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Minors ONLY&quot;</bucket>
+            </map>
+            <map to='#a5729b'>
+              <bucket>&quot;Ambiguous&quot;</bucket>
+            </map>
+            <map to='#cd9bbc'>
+              <bucket>&quot;Adults+Minors&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Adults ONLY&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='AnalysisQuestion1.csv' id='CleanData1.csv_9B22D5FDAABF4F66B3475C9B842F8442'>
+            <properties context=''>
+              <relation connection='textscan.07s6hfy0aikfh411i8n8i1bpu7ol' name='CleanData1.csv' table='[CleanData1#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:F382:no:A1:F382:2' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='state state' ordinal='1' />
+                  <column datatype='string' name='case_type case_type' ordinal='2' />
+                  <column datatype='string' name='age_group age_group' ordinal='3' />
+                  <column datatype='integer' name='count count' ordinal='4' />
+                  <column datatype='string' name='state_agegroup state_agegroup' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Cleandata2' inline='true' name='federated.1ep4riy0z4sk3017wdbtv1sq2qe8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Cleandata2' name='textscan.07zcrja1yo0idu1c856880gyiet9'>
+            <connection class='textscan' directory='C:/Users/hanna/school/year3/project-group32-project/data/processed' filename='Cleandata2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.07zcrja1yo0idu1c856880gyiet9' name='Cleandata2.csv' table='[Cleandata2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='state' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='string' name='case_type' ordinal='2' />
+            <column datatype='integer' name='count' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.07zcrja1yo0idu1c856880gyiet9' name='Cleandata2.csv' table='[Cleandata2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='state' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='string' name='case_type' ordinal='2' />
+            <column datatype='integer' name='count' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Cleandata2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[Cleandata2.csv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cleandata2.csv_18C5366AEB774C81A2284CD161A929E3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Cleandata2.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cleandata2.csv_18C5366AEB774C81A2284CD161A929E3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>case_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[case_type]</local-name>
+            <parent-name>[Cleandata2.csv]</parent-name>
+            <remote-alias>case_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cleandata2.csv_18C5366AEB774C81A2284CD161A929E3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count]</local-name>
+            <parent-name>[Cleandata2.csv]</parent-name>
+            <remote-alias>count</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Cleandata2.csv_18C5366AEB774C81A2284CD161A929E3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Cleandata2.csv' datatype='table' name='[__tableau_internal_object_id__].[Cleandata2.csv_18C5366AEB774C81A2284CD161A929E3]' role='measure' type='quantitative' />
+      <column caption='Case Type' datatype='string' name='[case_type]' role='dimension' type='nominal' />
+      <column caption='Count' datatype='integer' name='[count]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[case_type]' derivation='None' name='[none:case_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Case Type)' hidden='true' name='[Action (Case Type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[case_type]' />
+        </groupfilter>
+      </group>
+      <group caption='Case Type Set' name='[Case Type Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter from='&quot;Conservatorship ONLY&quot;' function='range' level='[none:case_type:nk]' to='&quot;Joint G/C ONLY&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group hidden='true' name='[Exclusions (Case Type,State)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:case_type:nk]' />
+          <groupfilter function='level-members' level='[none:state:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:case_type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;G+C+Joint&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Joint G/C ONLY&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Guardianship ONLY&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Conservatorship ONLY&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Cleandata2.csv' id='Cleandata2.csv_18C5366AEB774C81A2284CD161A929E3'>
+            <properties context=''>
+              <relation connection='textscan.07zcrja1yo0idu1c856880gyiet9' name='Cleandata2.csv' table='[Cleandata2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='state' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='string' name='case_type' ordinal='2' />
+                  <column datatype='integer' name='count' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_AEFCECC4E529481689D93CA140236615]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Count of Each Age Group Type in Each State' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Age Group' />
+        <param name='target' value='Count of Each Age Group Type in Each State' />
+      </command>
+    </action>
+    <action caption='Highlight 2 (generated)' name='[Action2_340DFEC1F52F4339B2566B21120F8562]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Analysis Question 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Age Group' />
+        <param name='target' value='Analysis Question 1' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action3_29F828E068D743F4B37D7A116ACB041C]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Analysis Question 2' type='sheet' worksheet='Count of Case Type' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Analysis Question 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Count of Cases by State'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleandata2' name='federated.1ep4riy0z4sk3017wdbtv1sq2qe8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ep4riy0z4sk3017wdbtv1sq2qe8'>
+            <column-instance column='[count]' derivation='Avg' name='[avg:count:qk]' pivot='key' type='quantitative' />
+            <column caption='Case Type' datatype='string' name='[case_type]' role='dimension' type='nominal' />
+            <column caption='Count' datatype='integer' name='[count]' role='measure' type='quantitative' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[Action (Case Type)]'>
+            <groupfilter function='level-members' level='[case_type]' user:ui-action-filter='[Action1_09B33FA69F2E491C93DFD31831919E04]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:state:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[avg:count:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[Action (Case Type)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='size' value='1.4942541122436523' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[avg:count:qk]</rows>
+        <cols>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:state:nk]</cols>
+      </table>
+      <simple-id uuid='{DF01676F-5952-4A74-9DA1-7B2E3EC36612}' />
+    </worksheet>
+    <worksheet name='Count of Case Type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Count of Case Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleandata2' name='federated.1ep4riy0z4sk3017wdbtv1sq2qe8' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1ep4riy0z4sk3017wdbtv1sq2qe8'>
+            <column caption='Case Type' datatype='string' name='[case_type]' role='dimension' type='nominal' />
+            <column caption='Count' datatype='integer' name='[count]' role='measure' type='quantitative' />
+            <column-instance column='[case_type]' derivation='None' name='[none:case_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[count]' derivation='Sum' name='[sum:count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]'>
+            <groupfilter function='level-members' level='[none:case_type:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]' value='68' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='fill-color' id='refline0' value='#f0f0f0d9' />
+            <format attr='palette' id='refline0' value='bp_red' />
+            <format attr='opacity' id='refline0' value='167' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2523757219314575' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[sum:count:qk]</rows>
+        <cols>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]</cols>
+      </table>
+      <simple-id uuid='{3F111FDA-8DB2-452F-9082-B6EDFBF9536A}' />
+    </worksheet>
+    <worksheet name='Count of Case Types in Each State'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AnalysisQuestion1' name='federated.1rnq59i0ni5z4n1de59fn0sq5oxg' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1rnq59i0ni5z4n1de59fn0sq5oxg'>
+            <column aggregation='CountD' caption='Age Group' datatype='string' default-role='measure' default-type='quantitative' name='[age_group age_group]' role='dimension' type='nominal' />
+            <column caption='Case Type' datatype='string' name='[case_type case_type]' role='dimension' type='nominal' />
+            <column caption='Count' datatype='integer' name='[count count]' role='measure' type='quantitative' />
+            <column-instance column='[age_group age_group]' derivation='None' name='[none:age_group age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[case_type case_type]' derivation='None' name='[none:case_type case_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state state]' derivation='None' name='[none:state state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[count count]' derivation='Sum' name='[sum:count count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]'>
+            <groupfilter function='level-members' level='[none:age_group age_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='outdoors' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0214917659759521' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]</rows>
+        <cols>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]</cols>
+      </table>
+      <simple-id uuid='{5152ACC2-B3DB-41B1-8DFD-AF2600AEB91D}' />
+    </worksheet>
+    <worksheet name='Count of Case by State'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleandata2' name='federated.1ep4riy0z4sk3017wdbtv1sq2qe8' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1ep4riy0z4sk3017wdbtv1sq2qe8'>
+            <column caption='Case Type' datatype='string' name='[case_type]' role='dimension' type='nominal' />
+            <column caption='Count' datatype='integer' name='[count]' role='measure' type='quantitative' />
+            <column-instance column='[case_type]' derivation='None' name='[none:case_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[count]' derivation='Sum' name='[sum:count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[Action (Case Type)]'>
+            <groupfilter function='level-members' level='[case_type]' user:ui-action-filter='[Action1_09B33FA69F2E491C93DFD31831919E04]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:state:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[sum:count:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[Action (Case Type)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:state:nk]</rows>
+        <cols>[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[sum:count:qk]</cols>
+      </table>
+      <simple-id uuid='{FE84DA17-AA27-4F84-9B95-39F96D783C33}' />
+    </worksheet>
+    <worksheet name='Count of Each Age Group Type in Each State'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Count of Each Age Group Type in Each State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AnalysisQuestion1' name='federated.1rnq59i0ni5z4n1de59fn0sq5oxg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rnq59i0ni5z4n1de59fn0sq5oxg'>
+            <column aggregation='CountD' caption='Age Group' datatype='string' default-role='measure' default-type='quantitative' name='[age_group age_group]' role='dimension' type='nominal' />
+            <column caption='Count' datatype='integer' name='[count count]' role='measure' type='quantitative' />
+            <column-instance column='[age_group age_group]' derivation='None' name='[none:age_group age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state state]' derivation='None' name='[none:state state:nk]' pivot='key' type='nominal' />
+            <column caption='State' datatype='string' name='[state state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[count count]' derivation='Sum' name='[sum:count count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]'>
+            <groupfilter function='level-members' level='[none:age_group age_group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;New York&quot;</bucket>
+              <bucket>&quot;California&quot;</bucket>
+              <bucket>&quot;Michigan&quot;</bucket>
+              <bucket>&quot;Ohio&quot;</bucket>
+              <bucket>&quot;Missouri&quot;</bucket>
+              <bucket>&quot;Arizona&quot;</bucket>
+              <bucket>&quot;Indiana&quot;</bucket>
+              <bucket>&quot;Wisconsin&quot;</bucket>
+              <bucket>&quot;North Carolina&quot;</bucket>
+              <bucket>&quot;Massachusetts&quot;</bucket>
+              <bucket>&quot;Florida&quot;</bucket>
+              <bucket>&quot;Nevada&quot;</bucket>
+              <bucket>&quot;Tennessee&quot;</bucket>
+              <bucket>&quot;Arkansas&quot;</bucket>
+              <bucket>&quot;Colorado&quot;</bucket>
+              <bucket>&quot;Virginia&quot;</bucket>
+              <bucket>&quot;Washington&quot;</bucket>
+              <bucket>&quot;Oregon&quot;</bucket>
+              <bucket>&quot;Nebraska&quot;</bucket>
+              <bucket>&quot;Pennsylvania&quot;</bucket>
+              <bucket>&quot;Utah&quot;</bucket>
+              <bucket>&quot;Minnesota&quot;</bucket>
+              <bucket>&quot;Delaware&quot;</bucket>
+              <bucket>&quot;Kansas&quot;</bucket>
+              <bucket>&quot;Connecticut&quot;</bucket>
+              <bucket>&quot;Alaska&quot;</bucket>
+              <bucket>&quot;Montana&quot;</bucket>
+              <bucket>&quot;New Hampshire&quot;</bucket>
+              <bucket>&quot;Kentucky&quot;</bucket>
+              <bucket>&quot;Vermont&quot;</bucket>
+              <bucket>&quot;West Virginia&quot;</bucket>
+              <bucket>&quot;Idaho&quot;</bucket>
+              <bucket>&quot;Hawaii&quot;</bucket>
+              <bucket>&quot;New Mexico&quot;</bucket>
+              <bucket>&quot;North Dakota&quot;</bucket>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+              <bucket>&quot;Mississippi&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' value='auto' />
+            <format attr='width' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' value='21' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' data-class='subtotal' scope='cols' value='#00000000' />
+            <format attr='wrap' data-class='subtotal' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' value='off' />
+            <format attr='text-orientation' data-class='subtotal' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' value='-90' />
+            <format attr='height-header' value='19' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' value='true' />
+            <format attr='text-orientation' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#ffffff' />
+            <format attr='band-color' scope='rows' value='#ffffff' />
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+            <format attr='band-size' scope='cols' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]</rows>
+        <cols>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='off'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]</field>
+                  <field>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]</field>
+                  <field>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Adults+Minors&quot;</value>
+                <value>&quot;New York&quot;</value>
+                <value>99886</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{9EF06926-1840-464B-A8C0-D0E7B25D50A1}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{03B17458-A297-4F5A-A355-21921C049984}' />
+    </worksheet>
+    <worksheet name='Total Count of Different Age Groups'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Count of Different Age Groups</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AnalysisQuestion1' name='federated.1rnq59i0ni5z4n1de59fn0sq5oxg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rnq59i0ni5z4n1de59fn0sq5oxg'>
+            <column aggregation='CountD' caption='Age Group' datatype='string' default-role='measure' default-type='quantitative' name='[age_group age_group]' role='dimension' type='nominal' />
+            <column caption='Case Type' datatype='string' name='[case_type case_type]' role='dimension' type='nominal' />
+            <column caption='Count' datatype='integer' name='[count count]' role='measure' type='quantitative' />
+            <column-instance column='[age_group age_group]' derivation='None' name='[none:age_group age_group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[case_type case_type]' derivation='None' name='[none:case_type case_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[count count]' derivation='Sum' name='[sum:count count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]'>
+            <groupfilter function='level-members' level='[none:case_type case_type:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d4a6c8' />
+                <format attr='size' value='0.71364641189575195' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]</rows>
+        <cols>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]</cols>
+      </table>
+      <simple-id uuid='{3F7E887A-A745-4A1D-9287-5AC3DDDFF41B}' />
+    </worksheet>
+    <worksheet name='Total Count of Different Case Types'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Count of Different Case Types</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='AnalysisQuestion1' name='federated.1rnq59i0ni5z4n1de59fn0sq5oxg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rnq59i0ni5z4n1de59fn0sq5oxg'>
+            <column caption='Case Type' datatype='string' name='[case_type case_type]' role='dimension' type='nominal' />
+            <column caption='Count' datatype='integer' name='[count count]' role='measure' type='quantitative' />
+            <column-instance column='[case_type case_type]' derivation='None' name='[none:case_type case_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[count count]' derivation='Sum' name='[sum:count count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]' value='32' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#c6c1f0' />
+                <format attr='size' value='0.62569057941436768' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[sum:count count:qk]</rows>
+        <cols>[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]</cols>
+      </table>
+      <simple-id uuid='{F3ECB968-1928-4E39-BF79-97CA0287925D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Analysis Question 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Why is there such a variation in the way data is collected for guardianship and Conservatorship filings in different states across the USA?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e9d8f0' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98454' id='15' param='vert' type-v2='layout-flow' w='99166' x='417' y='773'>
+            <zone h='10435' id='16' type-v2='title' w='99166' x='417' y='773'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='88019' id='13' type-v2='layout-basic' w='99166' x='417' y='11208'>
+              <zone h='88019' id='5' param='horz' type-v2='layout-flow' w='29276' x='417' y='11208'>
+                <zone h='88019' id='3' type-v2='layout-basic' w='29276' x='417' y='11208'>
+                  <zone h='41579' id='1' name='Total Count of Different Age Groups' w='29276' x='417' y='11208'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='46440' id='10' name='Total Count of Different Case Types' w='29276' x='417' y='52787'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='43993' id='8' name='Count of Each Age Group Type in Each State' w='57326' x='29693' y='11208'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='32' h='88019' id='4' is-fixed='true' param='vert' type-v2='layout-flow' w='2012' x='97571' y='11208'>
+                <zone h='2609' id='7' name='Total Count of Different Age Groups' pane-specification-id='0' param='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:state state:nk]' type-v2='color' w='2012' x='97571' y='11208'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='44026' id='11' name='Count of Case Types in Each State' w='57326' x='29693' y='55201'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='43993' id='9' name='Count of Each Age Group Type in Each State' pane-specification-id='0' param='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]' type-v2='color' w='10552' x='87019' y='11208'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='44026' id='12' name='Count of Case Types in Each State' pane-specification-id='0' param='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]' type-v2='color' w='10552' x='87019' y='55201'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='2934' hidden-by-user='true' id='17' type-v2='dashboard-object' w='1496' x='97506' y='14181'>
+          <button action=''>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{84C5232D-F0AB-4AB9-993A-622EC56F203B}&quot; zone-id=&quot;17&quot; zone-ids=[9]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+      </zones>
+      <simple-id uuid='{53DAD777-7D44-423B-9289-371317CA3140}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Analysis Question 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontsize='17'>Why do the States with the Greatest and Lowest Average Counts of Cases Differ So </run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontsize='17'>Greatly?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Cleandata2' name='federated.1ep4riy0z4sk3017wdbtv1sq2qe8' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1ep4riy0z4sk3017wdbtv1sq2qe8'>
+        <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+        <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98360' id='19' param='vert' type-v2='layout-flow' w='89579' x='417' y='820'>
+            <zone h='10451' id='20' type-v2='title' w='89579' x='417' y='820'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='335' h='35144' id='21' is-fixed='true' name='Count of Case by State' w='89579' x='417' y='11271'>
+              <layout-cache type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='52765' id='13' param='horz' type-v2='layout-flow' w='89579' x='417' y='46415'>
+              <zone h='52765' id='6' type-v2='layout-basic' w='89579' x='417' y='46415'>
+                <zone h='52765' id='15' name='Count of Case Type' w='39993' x='50003' y='46415'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='52765' id='16' name='Average Count of Cases by State' w='49586' x='417' y='46415'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='98360' id='23' param='vert' type-v2='layout-flow' w='9587' x='89996' y='820'>
+            <zone fixed-size='628' h='65164' id='17' is-fixed='true' name='Count of Case Type' param='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:state:nk]' type-v2='filter' values='database' w='9587' x='89996' y='820'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='176' h='18853' id='22' is-fixed='true' name='Count of Case by State' pane-specification-id='0' param='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]' type-v2='color' w='9587' x='89996' y='65984'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontcolor='#000000' fontsize='17'>Why do the States with the Greatest and Lowest Average Counts of Cases Differ So </run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000' fontsize='17'>Greatly?</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98044' id='30' param='vert' type-v2='layout-flow' w='99002' x='499' y='978'>
+                <zone h='12469' id='20' type-v2='title' w='89436' x='499' y='978'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41932' id='21' is-fixed='true' name='Count of Case by State' w='89436' x='499' y='13447'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='176' h='22494' id='22' name='Count of Case by State' pane-specification-id='0' param='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]' type-v2='color' w='9566' x='89935' y='76528'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43643' id='16' is-fixed='true' name='Average Count of Cases by State' w='49517' x='499' y='55379'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='628' h='75550' id='17' mode='checkdropdown' name='Count of Case Type' param='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:state:nk]' type-v2='filter' values='database' w='9566' x='89935' y='978'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43643' id='15' is-fixed='true' name='Count of Case Type' w='39919' x='50016' y='55379'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4515C4BF-BA04-4A7D-9528-A300ADDC722B}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A38C8838-02D8-4D5D-8824-7D8BE0D39518}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='51'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CC1B53FD-E820-43AC-BBEA-24E062B4072F}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Analysis Question 1'>
+      <viewpoints>
+        <viewpoint name='Count of Case Types in Each State'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Count of Each Age Group Type in Each State' />
+        <viewpoint name='Total Count of Different Age Groups'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Count of Different Case Types'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='12' />
+      <simple-id uuid='{84C5232D-F0AB-4AB9-993A-622EC56F203B}' />
+    </window>
+    <window class='dashboard' name='Analysis Question 2'>
+      <viewpoints>
+        <viewpoint name='Average Count of Cases by State'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Count of Case Type'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Count of Case by State' />
+      </viewpoints>
+      <active id='22' />
+      <simple-id uuid='{DA3A60B5-0C49-49D0-8C3C-B3EBD29E3C7B}' />
+    </window>
+    <window class='worksheet' name='Average Count of Cases by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{093C064A-E12E-424D-960D-BFAC358D6C05}' />
+    </window>
+    <window class='worksheet' name='Count of Case Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='100'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{65673444-A567-4764-AAE2-BF66262C9D14}' />
+    </window>
+    <window class='worksheet' name='Count of Case by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1ep4riy0z4sk3017wdbtv1sq2qe8].[none:case_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B561DB39-D5F4-4E9F-BB9E-CA44CD27151E}' />
+    </window>
+    <window class='worksheet' name='Count of Case Types in Each State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:case_type case_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1E8A0462-055C-4785-AC07-E0343006F79D}' />
+    </window>
+    <window class='worksheet' name='Count of Each Age Group Type in Each State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1rnq59i0ni5z4n1de59fn0sq5oxg].[none:age_group age_group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B268B759-CEE4-446B-BC22-36AE24EE919E}' />
+    </window>
+    <window class='worksheet' name='Total Count of Different Age Groups'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AA50290D-9331-4AAC-9067-618F0B366F5A}' />
+    </window>
+    <window class='worksheet' name='Total Count of Different Case Types'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7C1635C8-DAD1-4506-91A2-198B85B3B9B0}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{ADD3D35C-75EF-464C-892E-7EEA5395D87C}' />
+    </window>
+  </windows>
+</workbook>
