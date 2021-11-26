@@ -13,4 +13,3 @@ def load_and_process(filing_counts):
 )
     return df
    
-#Method Chain 2
